@@ -1,0 +1,2 @@
+This is my first file.
+I am adding another line after switching branch back to master.
