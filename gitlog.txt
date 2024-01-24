@@ -1,0 +1,18 @@
+04ddfe3 Merge pull request #1 from nkschulzk/feature-nkschulzk
+1222823 nels file added
+ce26d8b resolve merge conflict
+1deb56f altered features file
+ff9e037 changed master - new features file
+b2b2c50 Merge branch 'features' merging in new feautures from features branch
+ce7890b trying main commit after branch switch again
+9b199f8 added new features file
+d0fe7b2 adding another line to file_1.txt
+facd780 deleted new_features, need to re-try merge
+d0657c8 merge in features from features branch
+c0e0003 added line
+7cbbc81 added note about new features
+99e9cce add empty file
+533122d add .gitignore
+a471414 added Readme.md
+cf4dce3 file_2 changes only commit
+42cdbf6 create new files

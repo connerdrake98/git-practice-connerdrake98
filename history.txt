@@ -1,0 +1,165 @@
+  225  mkdir git-practice-connerdrake98
+  227  cd git-practice-connerdrake98
+  229  git init
+  232  git status
+  237  git status
+  238  git add .
+  240  git status
+  241  git commit -m 'create new files'
+  242  git status
+  243  git log
+  252  git status
+  253  git add file_1.txt
+  254  git status
+  255  git restore --staged file_1.txt
+  256  git status
+  257  git add file_2.txt
+  258  git status
+  259  git commit -m 'file_2 changes only commit'
+  260  git log
+  261  git status
+  266  git status
+  267  git add Readme.md
+  268  git statsu
+  269  git status
+  270  git commit -m 'added Readme.md'
+  272  touch .gitignore
+  275  nano .gitignore
+  276  cat .gitignore
+  279  git add .gitignore
+  280  git statsu
+  281  git status
+  282  git commit -m 'add .gitignore'
+  283  git log
+  285  git status
+  287  git status
+  291  git status
+  292  git checkout -b features
+  293  git log
+  294  git status
+  296  git add new_features.txt
+  297  git status
+  298  git commit -m 'add empty file'
+  301  git commit -m 'added note about new features'
+  302  git status
+  303  git add new_features.txt
+  304  git statsu
+  305  git status
+  306  git commit -m 'added note about new features'
+  307  git status
+  308  git checkout main
+  309  git status
+  311  git checkout main
+  312  git branch
+  313  git checkout master
+  317  git commit -m 'added line'
+  318  git add file_1.txt
+  319  git commit -m 'added line'
+  320  git status
+  321  git merge features
+  335  cd git-practice-connerdrake98
+  337  git branch
+  338  git merge features
+  339  conne@DESKTOP-81UBBK8 MINGW64 ~/OneDrive/Documents/PC/Education/Post-Secondary Education/BYU/Winter 2024/STAT386/git-practice-connerdrake98 (master|MERGING)
+  340  $ git merge features
+  344  git status
+  345  git commit -m 'merge in features from features branch'
+  346  git branch
+  347  git status
+  348  git log
+  350  git branch
+  351  git checkout features
+  353  git checkout master
+  356  git status
+  357  git add .
+  358  git status
+  359  git commit -m 'deleted new_features, need to re-try merge'
+  360  git status
+  362  git checkout features
+  364  git checkout master
+  367  git commit -m 'adding another line to file_1.txt"
+  368  git status
+  369  git add .
+  370  git commit -m 'adding another line to file_1.txt'
+  372  git config --global core.editor "code --wait"
+  373  git checkout master
+  374  git merge features
+  376  git checkout features
+  379  git checkout master
+  382  git config --global core.editor "code --wait"
+  383  git branch
+  384  git merge features
+  386  git merge features
+  387  git checkout features
+  389  git checkout master
+  391  git checkout features
+  393  git status
+  394  git checkout mater
+  395  git status
+  397  git checkout master
+  400  git log
+  401  git checkout master
+  402  git branch -d features
+  403  git checkout -b features
+  405  git status
+  409  git status
+  410  git add new_features.txt
+  411  git status
+  412  git commit -m 'added new features file'
+  413  git status
+  414  git checkout master
+  418  git add .
+  419  git status
+  420  git commit -m 'trying main commit after branch switch again'
+  421  git status
+  422  git merge features
+  423  git log
+  424  git status
+  428  git add .
+  429  git commit -m 'changed master - new features file'
+  430  git checkout features
+  432  git checkout master
+  434  git checkout features
+  436  git add .
+  437  git commit -m 'altered features file'
+  438  git checkout master
+  439  git merge features
+  443  git add .
+  444  git commit -m 'resolve merge conflict'
+  445  git status
+  446  git log
+  447  git status
+  448  git branch -d features
+  449  git remote add origin git@github.com:connerdrake98/git-practice-connerdrake98.git
+  450  git push -u origin main
+  451  git push -u origin master
+  455  git clone https://github.com/connerdrake98/git-practice-nkschulzk
+  457  cd git-practice-nkschulzk
+  459  git branch feature-connerdrake98
+  464  git add .
+  465  git status
+  466  git commit -m 'adding changes'
+  467  git push origin feature-connerdrake98
+  469  git branch
+  470  git checkout feature-connerdrake98
+  475  git add .
+  476  git status
+  477  git commit -m 'added new features (conner)'
+  478  git push origin feature-connerdrake98
+  497  cd git-practice-connerdrake98
+  499  git remote add origin https://github.com/connerdrake98/git-practice-connerdrake98.git
+  500  git push -u origin main
+  501  git push -u origin master
+  507  git push -u origin master
+  508  git push -u origin main
+  510  git push -u origin main
+  511  git push -u origin master
+  515  cd git-practice-nkschulzk
+  517  git status
+  518  git push origin feature-connerdrake98
+  519  git pull
+  522  cd git-practice-connerdrake98
+  524  git pull
+  534  cd git-practice-connerdrake98
+  536  git log --oneline > gitlog.txt
+  538  history | grep git > history.txt
